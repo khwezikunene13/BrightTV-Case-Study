@@ -72,7 +72,7 @@ from workspace.default.bright_tv_viewership;
 select max(date_format(RecordDate2,'HH:mm:ss')) as latest_session
 from workspace.default.bright_tv_viewership;
 
-
+--Final Script--
 select
 ---categorical Data
     a.UserID, 
